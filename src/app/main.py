@@ -18,6 +18,7 @@ graph = build_graph(store)
 
 @app.get("/health")
 def health():
+    #get the health of the endpoint
     return {"ok": True}
 
 @app.post("/chat", response_model=ChatResponse)
