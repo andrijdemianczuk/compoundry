@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "personal-assistant"
+name = "compoundry"
 version = "0.1.0"
 description = "Personal compound assistant (LangGraph + FastAPI) with approval-gated filesystem notes."
-authors = ["You <you@example.com>"]
+authors = ["Andrij Demianczuk <andrij.demianczuk@databricks.com>"]
 readme = "README.md"
 packages = [{include = "app", from = "src"}]
 
